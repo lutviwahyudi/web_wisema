@@ -16,6 +16,12 @@
                             <h5 class="card-title" style="font-size: 16px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%"><?= $product['nama'] ?></h5>
                             <p class="card-text" style="font-size: 14px; margin-bottom: 5px;">Harga : Rp. <?= $product['harga'] ?></p>
                             <p class="card-text" style="font-size: 14px; margin-bottom: 5px;">Diskon : <?= $product['diskon'] ?>%</p>
+                            <?php
+                            $harga = $product['harga'];
+                            $diskon = $product['diskon'];
+                            $subtotal = $harga - ($harga * $diskon / 100);
+                            ?>
+                            <p class="card-text" style="font-size: 14px; margin-bottom: 5px;">Subtotal : <?= $subtotal ?></p>
                         </div>
                     </div>
                 </div>

@@ -11,11 +11,11 @@
             <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
                 <div class="project-item">
                     <div class="project-img">
-                        <img src="<?= base_url('assets') ?>/img/project-1.jpg" class="img-fluid w-100 rounded" alt="">
+                        <img src="<?= base_url('assets') ?>/img/1a.jpg" class="img-fluid w-100 rounded" alt="">
                         <div class="project-content">
                             <a href="#" class="text-center">
-                                <h4 class="text-secondary">Web design</h4>
-                                <p class="m-0 text-white">Web Analysis</p>
+                                <h4 class="text-secondary">INFRASTRUKTUR & DATA CENTER</h4>
+                                <p class="m-0 text-white">Membangun IT Infrastruktur</p>
                             </a>
                         </div>
                     </div>
@@ -24,7 +24,7 @@
             <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
                 <div class="project-item">
                     <div class="project-img">
-                        <img src="<?= base_url('assets') ?>/img/project-2.jpg" class="img-fluid w-100 rounded" alt="">
+                        <img src="<?= base_url('assets') ?>/img/2a.jpg" class="img-fluid w-100 rounded" alt="">
                         <div class="project-content">
                             <a href="#" class="text-center">
                                 <h4 class="text-secondary">Cyber Security</h4>
@@ -37,7 +37,7 @@
             <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
                 <div class="project-item">
                     <div class="project-img">
-                        <img src="<?= base_url('assets') ?>/img/project-3.jpg" class="img-fluid w-100 rounded" alt="">
+                        <img src="<?= base_url('assets') ?>/img/3.jpg" class="img-fluid w-100 rounded" alt="">
                         <div class="project-content">
                             <a href="#" class="text-center">
                                 <h4 class="text-secondary">Mobile Info</h4>
@@ -90,4 +90,4 @@
     </div>
 </div>
 <!-- Project End -->
- <?= $this->endSection()?>
+<?= $this->endSection() ?>

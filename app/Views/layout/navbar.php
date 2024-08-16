@@ -3,7 +3,7 @@
         <div class="container">
             <nav class="navbar navbar-dark navbar-expand-lg py-0">
                 <a href="index.html" class="navbar-brand">
-                    <h5 class="text-white fw-bold d-block">PT Wira<span class="text-secondary"> Selaras Manunggal</span></h5>
+                    <h5 class="text-white fw-bold d-block">PT Wira Selaras Manunggal</span></h5>
                 </a>
                 <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="<?= base_url('assets') ?>/img/carousel-2.jpg" class="img-fluid" alt="Second slide">
+                    <img src="<?= base_url('assets') ?>/img/3a.jpg" class="img-fluid" alt="Second slide">
                     <div class="carousel-caption">
                         <div class="container carousel-content">
                             <h6 class="text-secondary h4 animated fadeInUp">Jual Beli Perangkat Komputer</h6>

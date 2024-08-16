@@ -64,6 +64,7 @@ class Pages extends BaseController
         $newName = $file->getRandomName();
         $file->move(WRITEPATH . '../public/uploads', $newName);
 
+        
         $data = [
             'img'   => $newName,
             'nama'   => $this->request->getPost('nama'),

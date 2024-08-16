@@ -40,8 +40,8 @@
         <div class="container">
             <div class="d-flex justify-content-between topbar">
                 <div class="top-info">
-                    <small class="me-3 text-white-50"><a href="#"><i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>Center Point Tower BGF 50. Jl. Ahmad Yani Kav 20, Bekasi Selatan</small>
-                    <small class="me-3 text-white-50"><a href="#"><i class="fas fa-envelope me-2 text-secondary"></i></a>wsm24821@gmail.com</small>
+                    <small class="me-3 text-white-50"><a href="https://maps.app.goo.gl/AHBSBzwKnf1tTCqX9"><i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>Center Point Tower BGF 50. Jl. Ahmad Yani Kav 20, Bekasi Selatan</small>
+                    <small class="me-3 text-white-50"><a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=wsm24821@gmail.com"><i class="fas fa-envelope me-2 text-secondary"></i></a>wsm24821@gmail.com</small>
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 col-md-6">
                     <a href="index.html">
-                        <h1 class="text-white fw-bold d-block">PT Wira<span class="text-secondary">Selaras Manunggal</span> </h1>
+                        <h1 class="text-white fw-bold d-block">PT Wira Selaras Manunggal</h1>
                     </a>
                     <p class="mt-4 text-light">Sukses sudah pasti menjadi harapan
                         dan Impian semua Orang , namun
@@ -73,9 +73,9 @@
                 <div class="col-lg-3 col-md-6">
                     <a href="#" class="h3 text-secondary">Contact Us</a>
                     <div class="text-white mt-4 d-flex flex-column contact-link">
-                        <a href="#" class="pb-3 text-light border-bottom border-primary"><i class="fas fa-map-marker-alt text-secondary me-2"></i>Center Point Tower BGF 50. Jl. Ahmad Yani Kav 20, Bekasi Selatan</a>
-                        <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-phone-alt text-secondary me-2"></i>+123 456 7890</a>
-                        <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i>wsm24821@gmail.com</a>
+                        <a href="https://maps.app.goo.gl/AHBSBzwKnf1tTCqX9" class="pb-3 text-light border-bottom border-primary"><i class="fas fa-map-marker-alt text-secondary me-2"></i>Center Point Tower BGF 50. Jl. Ahmad Yani Kav 20, Bekasi Selatan</a>
+                        <a href="https://wa.me/+6287832484138?text=Apakah boleh saya bertanya tentang produk anda ?" class="py-3 text-light border-bottom border-primary"><i class="fab fa-whatsapp text-secondary me-2"></i>+62 878-3248-4138</a>
+                        <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=wsm24821@gmail.com" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i>wsm24821@gmail.com</a>
                     </div>
                 </div>
             </div>
