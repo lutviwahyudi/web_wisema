@@ -42,6 +42,8 @@
                 <div class="top-info">
                     <small class="me-3 text-white-50"><a href="https://maps.app.goo.gl/AHBSBzwKnf1tTCqX9"><i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>Center Point Tower BGF 50. Jl. Ahmad Yani Kav 20, Bekasi Selatan</small>
                     <small class="me-3 text-white-50"><a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=wsm24821@gmail.com"><i class="fas fa-envelope me-2 text-secondary"></i></a>wsm24821@gmail.com</small>
+                    <small class="me-3 text-white-50"><a href="mailto:sales@wisema.id"><i class="fas fa-envelope me-2 text-secondary"></i></a>Sales Email</small>
+                    <small class="me-3 text-white-50"><a href="mailto:admin@wisema.id"><i class="fas fa-envelope me-2 text-secondary"></i></a>Admin Email</small>
                 </div>
             </div>
         </div>

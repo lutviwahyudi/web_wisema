@@ -32,7 +32,7 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
-                    <img src="<?= base_url('assets') ?>/img/carousel-1.jpg" class="img-fluid" alt="First slide">
+                    <img src="<?= base_url('assets') ?>/img/1.jpg" class="img-fluid" alt="First slide">
                     <div class="carousel-caption">
                         <div class="container carousel-content">
                             <h6 class="text-secondary h4 animated fadeInUp">Layanan Service Kompoter</h6>

@@ -22,6 +22,7 @@
                             $subtotal = $harga - ($harga * $diskon / 100);
                             ?>
                             <p class="card-text" style="font-size: 14px; margin-bottom: 5px;">Subtotal : <?= $subtotal ?></p>
+                            <a href="https://wa.me/+6287832484138?text=Apakah produk <?= urlencode($product['nama']) ?> masih tersedia tidak?"><button type="button">Order</button></a>
                         </div>
                     </div>
                 </div>

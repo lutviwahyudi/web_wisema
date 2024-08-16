@@ -8,11 +8,11 @@
         </div>
         <div class="mb-3">
             <label for="harga" class="form-label">Harga Produk</label>
-            <input type="text" class="form-control" id="harga" name="harga" required>
+            <input type="text" class="form-control" id="harga" name="harga" required placeholder="2000000" style="opacity: 0.5;">
         </div>
         <div class="mb-3">
             <label for="diskon" class="form-label">Diskon</label>
-            <input type="text" class="form-control" id="diskon" name="diskon" required>
+            <input type="text" class="form-control" id="diskon" name="diskon" required placeholder="10" style="opacity: 0.5;">
         </div>
         <div class="mb-3">
             <label for="formFile" class="form-label">Upload Photo</label>

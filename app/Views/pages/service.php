@@ -16,7 +16,7 @@
                             <h4 class="mb-3">MAINTENENCE</h4>
                             <p class="mb-4">Layanan "Maintenance," "CCTV," "Server," "Network," dan "DataCenter" merupakan komponen
                                 penting dalam infrastruktur teknologi dan keamanan modern</p>
-                            <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                            <!-- <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a> -->
                         </div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
                             <h4 class="mb-3">SECURITY SYSTEM</h4>
                             <p class="mb-4">Layanan Security System "IntruderSystem," "Fire System," dan "AlarmSystem" adalah bagian dari sistem keamanan terpadu
                                 yang dirancang untuk melindungi properti dan penghuninya dari berbagai ancaman.</p>
-                            <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                            <!-- <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a> -->
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
                             <h4 class="mb-3">SURVEILLANCE SYSTEM</h4>
                             <p class="mb-4">Layanan "Surveillance" yang mencakup "LowEndCCTVSystem," "HighEndCCTVSystem," dan "NVRSystem" berfokus
                                 pada pemantauan dan pengawasan visual untuk keamanan.</p>
-                            <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                            <!-- <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a> -->
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
                             <h4 class="mb-3">IT NETWORKING</h4>
                             <p class="mb-4">Layanan "IT Networking" yang mencakup "LAN Installation," "FO Installation," "Wireless Installation," dan "Antivirus System" bertujuan untuk
                                 membangun dan mengamankan infrastruktur jaringan yang kuat dan andal.</p>
-                            <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                            <!-- <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a> -->
                         </div>
 
                     </div>
@@ -69,7 +69,7 @@
                             <h4 class="mb-3">DATA CENTER</h4>
                             <p class="mb-4">Layanan "Build DataCenter" dalam kategori "DataCenter" adalah layanan komprehensif yang mencakup perencanaan, desain, dan
                                 konstruksi fasilitas data center yang andal dan aman.</p>
-                            <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                            <!-- <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a> -->
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                             <h4 class="mb-3">INTERACTIVE DISPLAY</h4>
                             <p class="mb-4">Layanan "Uniview Interactive System" dalam kategori "Interactive Display" adalah solusi teknologi yang menyediakan
                                 layar interaktif canggih untuk berbagai aplikasi, seperti pendidikan, bisnis, dan presentasi publik.</p>
-                            <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                            <!-- <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a> -->
                         </div>
                     </div>
                 </div>
