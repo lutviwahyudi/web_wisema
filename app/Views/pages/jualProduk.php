@@ -1,10 +1,14 @@
 <?= $this->extend('layout/template') ?>
 <?= $this->section('content') ?>
 <div class="d-flex justify-content-center align-items-center vh-100">
-    <form action="<?= base_url('pages/save') ?>" method="post" enctype="multipart/form-data" class="w-50"> <?= csrf_field() ?>
+    <form action="<?= base_url('home/save') ?>" method="post" enctype="multipart/form-data" class="w-50"> <?= csrf_field() ?>
         <div class="mb-3">
             <label for="name" class="form-label">Nama Produk</label>
             <input type="text" class="form-control" id="nama" name="nama" required>
+        </div>
+        <div class="mb-3">
+            <label for="deskripsi" class="form-label">Deskripsi Spesifikasi Produk</label>
+            <input type="text" class="form-control" id="deskripsi" name="deskripsi" required>
         </div>
         <div class="mb-3">
             <label for="harga" class="form-label">Harga Produk</label>

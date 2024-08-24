@@ -11,11 +11,17 @@
                 <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
                     <div class="navbar-nav ms-auto mx-xl-auto p-0">
                         <a href="<?= base_url() ?>" class="nav-item nav-link active text-secondary">Home</a>
-                        <a href="<?= base_url('pages/about') ?>" class="nav-item nav-link">About</a>
-                        <a href="<?= base_url('pages/service') ?>" class="nav-item nav-link">Services</a>
-                        <a href="<?= base_url('pages/projects') ?>" class="nav-item nav-link">Projects</a>
-                        <a href="<?= base_url('pages/produk') ?>" class="nav-item nav-link">Produk</a>
-                        <a href="<?= base_url('pages/jualProduk') ?>" class="nav-item nav-link">Jual Produk</a>
+                        <a href="<?= base_url('home/about') ?>" class="nav-item nav-link">About</a>
+                        <a href="<?= base_url('home/service') ?>" class="nav-item nav-link">Services</a>
+                        <a href="<?= base_url('home/projects') ?>" class="nav-item nav-link">Projects</a>
+                        <a href="<?= base_url('home/produk') ?>" class="nav-item nav-link">Produk</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kelola Website</a>
+                            <div class="dropdown-menu rounded">
+                                <a href="<?= base_url('home/jualProduk') ?>" class="dropdown-item">Jual Produk</a>
+                                <a href="<?= base_url('home/berita') ?>" class="dropdown-item">Kelola Berita</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -75,7 +81,6 @@
             </div>
         </div>
     </div>
-    <!-- Fact end -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             // Ambil jumlah pengunjung dari localStorage

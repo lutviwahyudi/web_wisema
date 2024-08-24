@@ -40,16 +40,61 @@
         <div class="container">
             <div class="d-flex justify-content-between topbar">
                 <div class="top-info">
-                    <small class="me-3 text-white-50"><a href="https://maps.app.goo.gl/AHBSBzwKnf1tTCqX9"><i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>Center Point Tower BGF 50. Jl. Ahmad Yani Kav 20, Bekasi Selatan</small>
-                    <small class="me-3 text-white-50"><a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=wsm24821@gmail.com"><i class="fas fa-envelope me-2 text-secondary"></i></a>wsm24821@gmail.com</small>
+                    <small class="me-3 text-white-50"><a href="https://maps.app.goo.gl/exiSgLCtHLfBbUyB6"><i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>Center Point Tower BGF 50 Jl.Ahmad Yani Kav 20–Bekasi Selatan</small>
                     <small class="me-3 text-white-50"><a href="mailto:sales@wisema.id"><i class="fas fa-envelope me-2 text-secondary"></i></a>Sales Email</small>
                     <small class="me-3 text-white-50"><a href="mailto:admin@wisema.id"><i class="fas fa-envelope me-2 text-secondary"></i></a>Admin Email</small>
+                    <small class="me-3 text-white-50"><a href="mailto:Support@wisema.id"><i class="fas fa-envelope me-2 text-secondary"></i></a>Support Email</small>
                 </div>
             </div>
         </div>
     </div>
     <!-- Topbar End -->
     <?= $this->include('layout/navbar') ?>
+    <?php if (uri_string() == ''): ?>
+        <div class="container-fluid blog py-5 my-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">Our Blog</h5>
+                    <h1>Latest Blog & News</h1>
+                </div>
+                <div class="row g-5 justify-content-center">
+                    <?php foreach ($blogs as $blog): ?>
+                        <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+                            <div class="blog-item position-relative bg-light rounded">
+                                <img src="<?= base_url('uploads/') . $blog['img'] ?>" class="img-fluid w-100 rounded-top" alt="">
+                                <div class="position-absolute top-50 start-50 translate-middle">
+                                    <a href="#" class="btn btn-secondary px-3 rounded-pill text-white" data-bs-toggle="modal" data-bs-target="#readMoreModal-<?= $blog['id'] ?>">Read More</a>
+                                </div>
+                                <div class="blog-content text-center position-relative px-3" style="margin-top: 30px;">
+                                    <h4><?= $blog['judul'] ?></h4>
+                                    <span class="text-secondary"><?= date('d M Y', strtotime($blog['date'])) ?></span>
+                                    <p class="py-2"><?= substr($blog['deskripsi'], 0, 100) ?>...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="readMoreModal-<?= $blog['id'] ?>" tabindex="-1" aria-labelledby="readMoreModalLabel-<?= $blog['id'] ?>" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="readMoreModalLabel-<?= $blog['id'] ?>">Detail Berita</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p><?= $blog['deskripsi'] ?></p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </div>
+    <?php endif; ?>
     <?= $this->renderSection('content'); ?>
     <!-- Footer Start -->
     <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
@@ -75,9 +120,10 @@
                 <div class="col-lg-3 col-md-6">
                     <a href="#" class="h3 text-secondary">Contact Us</a>
                     <div class="text-white mt-4 d-flex flex-column contact-link">
-                        <a href="https://maps.app.goo.gl/AHBSBzwKnf1tTCqX9" class="pb-3 text-light border-bottom border-primary"><i class="fas fa-map-marker-alt text-secondary me-2"></i>Center Point Tower BGF 50. Jl. Ahmad Yani Kav 20, Bekasi Selatan</a>
+                        <a href="https://maps.app.goo.gl/exiSgLCtHLfBbUyB6" class="pb-3 text-light border-bottom border-primary"><i class="fas fa-map-marker-alt text-secondary me-2"></i> Center Point Tower BGF 50 Jl.Ahmad Yani
+                            Kav 20–Bekasi Selatan</a>
                         <a href="https://wa.me/+6287832484138?text=Apakah boleh saya bertanya tentang produk anda ?" class="py-3 text-light border-bottom border-primary"><i class="fab fa-whatsapp text-secondary me-2"></i>+62 878-3248-4138</a>
-                        <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=wsm24821@gmail.com" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i>wsm24821@gmail.com</a>
+                        <a href="mailto:Support@wisema.id" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i>Support Email</a>
                     </div>
                 </div>
             </div>
